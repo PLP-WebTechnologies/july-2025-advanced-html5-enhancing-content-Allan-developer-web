@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Assignment</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h2>Week 2 Assignment</h2>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section>
+    <!-- Ordered Lists -->
+     <h3>Ordered Lists</h3>
+     <ol type="1">
+        <li>Mango</li>
+        <li>Pineapple</li>
+        <li>Strawberries</li>
+      </ol>
+    <!--  Unordered Lists  -->
+      <h3>Unordered Lists</h3>
+      <ul type="square">
+        <li>Cabbage</li>
+        <li>Collard greens</li>
+        <li>cowpea leaves</li>
+      </ul>
+    <!--  Definition Lists  -->
+      <h3>Definition Lists</h3>
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>
+      <!-- Nested Lists -->
+       <h3>Nested Lists</h3>
+       <ul>
+        <li>Tea
+            <ul>
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li>Tomato</li>
+                <li>Onion</li>
+            </ul>
+        </li>
+    </ul>
+    </section>
+
+    <!-- HTMl Tables -->
+     <section>
+     <h3>This is a Table</h3>
+     <table border="1">
+        <thead>
+            <tr>
+                <th>Vegetables</th>
+                <th>Fruits</th>
+                <th>Bevarages</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sukuma Wiki</td>
+                <td>Mango</td>
+                <td>Coffee</td>
+            </tr>
+            <tr>
+                <td>Cabagge</td>
+                <td>Apple</td>
+                <td>Tea</td>
+            </tr>
+        </tbody>
+     </table>
+     </section>
+
+     <section>
+    <!-- Image -->
+     <h3>Image of Dog</h3>
+     <img src="dog.jpg" alt="This is a dog" width="400" height="300">
+    <!-- Sample Audio -->
+     <h3>Sample Audio</h3>
+     <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+     </audio>
+    <!-- Sample Video -->
+     <h3>Sample Video</h3>
+     <video controls width="640" height="360">
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+     </video>
+     </section>
+     </main>
+
+    <!-- HTML5 form -->
+     <h3>HTML5 form</h3>
+     <form action="enhanced-form.html" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username" minlength="6" maxlength="15" required><br>
+        <label>password:</label>
+        <input type="password" placeholder="password" required><br>
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="email" required><br>
+        <label for="phone">phone</label>
+        <input type="tel" id="phone" placeholder="1234567890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br>
+        <label for="date">Date</label>
+        <input type="date" id="date"><br>
+        <label for="title">title:</label>
+
+        <label for="mr">Mr</label>
+        <input type="radio" id="mr" name="title" value="mr">
+        <label for="mrs">Mrs</label>
+        <input type="radio" id="mrs" name="title" value="mrs">
+        <label for="PhD">PhD</label>
+        <input type="radio" id="PhD" name="title" value="PhD"> <br>
+
+        <label for="payment">payment</label>
+        <select id="payment">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="giftcard">Giftcard</option>
+
+        </select><br>
+
+        <label for="subscribe">subscribe</label>
+        <input type="checkbox" id="subscribe"><br>
+        <label>Textarea</label>
+        <textarea name="comments" rows="4" cols="50" placeholder="Write your comments here"></textarea><br>
+        <button type="submit">Submit</button>
+
+     </form>
+      
+    <!-- footer content -->
+    <footer>
+        <p>&copy; 2025 Musyoka Kasyuma. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
